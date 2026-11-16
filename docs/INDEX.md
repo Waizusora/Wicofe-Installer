@@ -7,6 +7,9 @@ This directory documents installation and first-deployment workflows for Wicofe 
 - [Osynit first-boot integration 0.1](OSYNIT_FIRST_BOOT_INTEGRATION_0.1.md) — init handoff validation and first-boot ownership.
 - [Osynit first-boot integration 0.1](OSYNIT_FIRST_BOOT_INTEGRATION_0.1.md) — validates init handoff and assigns first-boot service ownership.
 
+## Whole-system product direction
+- [Wicofe system delivery and installation direction 0.1](https://github.com/Waizusora/Wicofe-Docs/blob/main/SYSTEM_DELIVERY_AND_INSTALLATION_DIRECTION_0.1.md) — planned text CLI entry point `wicofe-install` and end-to-end install-to-first-boot goal; not implemented.
+
 ## Scope
 - Installation environment and user workflow.
 - Disk/partition selection and destructive-operation confirmation.
