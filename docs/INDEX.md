@@ -4,8 +4,7 @@ This directory documents installation and first-deployment workflows for Wicofe 
 
 ## Architecture
 - [Installation and deployment architecture 0.1](INSTALLATION_DEPLOYMENT_ARCHITECTURE_0.1.md) — draft design for preflight, target identity, destructive consent, deployment phases, boot setup and interruption safety.
-- [Osynit first-boot integration 0.1](OSYNIT_FIRST_BOOT_INTEGRATION_0.1.md) — init handoff validation and first-boot ownership.
-- [Osynit first-boot integration 0.1](OSYNIT_FIRST_BOOT_INTEGRATION_0.1.md) — validates init handoff and assigns first-boot service ownership.
+- [Frenit first-boot integration 0.1](FRENIT_FIRST_BOOT_INTEGRATION_0.1.md) — verified init handoff, image deployment and native first-boot gates.
 
 ## Whole-system product direction
 - [Wicofe system delivery and installation direction 0.1](https://github.com/Waizusora/Wicofe-Docs/blob/main/SYSTEM_DELIVERY_AND_INSTALLATION_DIRECTION_0.1.md) — planned text CLI entry point `wicofe-install` and end-to-end install-to-first-boot goal; not implemented.
