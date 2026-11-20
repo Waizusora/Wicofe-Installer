@@ -7,7 +7,7 @@ This directory documents installation and first-deployment workflows for Wicofe 
 - [Frenit first-boot integration 0.1](FRENIT_FIRST_BOOT_INTEGRATION_0.1.md) — verified init handoff, image deployment and native first-boot gates.
 
 ## Whole-system product direction
-- [Wicofe system delivery and installation direction 0.1](https://github.com/Waizusora/Wicofe-Docs/blob/main/SYSTEM_DELIVERY_AND_INSTALLATION_DIRECTION_0.1.md) — planned text CLI entry point `wicofe-install` and end-to-end install-to-first-boot goal; not implemented.
+- [Wicofe system delivery and installation direction 0.1](https://github.com/Waizusora/Wicofe-Doc/blob/main/SYSTEM_DELIVERY_AND_INSTALLATION_DIRECTION_0.1.md) — planned text CLI entry point `wicofe-install` and end-to-end install-to-first-boot goal; not implemented.
 
 ## Scope
 - Installation environment and user workflow.
@@ -21,5 +21,5 @@ This directory documents installation and first-deployment workflows for Wicofe 
 ## Safety
 Never format or repartition implicitly. Show the exact target, proposed layout and data-loss consequences before execution. Revalidate device identity immediately before writes and define interruption/recovery behavior. A partially overwritten disk cannot be assumed to be automatically rollbackable.
 
-- [Central documentation index](https://github.com/Waizusora/Wicofe-Docs/blob/main/INDEX.md)
-- [Repository documentation map](https://github.com/Waizusora/Wicofe-Docs/blob/main/REPOSITORY_DOCUMENTATION_MAP.md)
+- [Central documentation index](https://github.com/Waizusora/Wicofe-Doc/blob/main/INDEX.md)
+- [Repository documentation map](https://github.com/Waizusora/Wicofe-Doc/blob/main/REPOSITORY_DOCUMENTATION_MAP.md)
