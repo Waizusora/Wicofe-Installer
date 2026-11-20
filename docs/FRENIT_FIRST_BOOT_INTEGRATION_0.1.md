@@ -3,7 +3,7 @@
 - **Status:** Proposed installation integration; native Frenit first boot is not implemented or verified.
 - **Owner:** Wicofe-Installer for deployment; Frenit for init and service lifecycle policy.
 - **Component:** [Frenit — Free Init](https://github.com/Waizusora/Frenit).
-- **Cross-component contract:** [WIC-SPEC-BOOT-FRENIT-001](https://github.com/Waizusora/Wicofe-Specs/blob/main/boot/FRENIT_INTEGRATION_CONTRACT_0.1.md).
+- **Cross-component contract:** [WIC-SPEC-BOOT-FRENIT-001](https://github.com/Waizusora/Wicofe-Spec/blob/main/boot/FRENIT_INTEGRATION_CONTRACT_0.1.md).
 - **Date:** 2026-11-18
 
 ## 1. Responsibility boundary
@@ -38,4 +38,4 @@ If the init executable is missing or fails validation, the installer must not re
 
 Test image-to-installer handoff, artifact hash and architecture, ABI compatibility, first PID 1 launch, default target activation, failed-service recovery and clean shutdown. Keep deployment success, emulator boot success and physical-hardware validation as separate evidence levels.
 
-No native Frenit first-boot claim is allowed until the kernel/ABI and Wicofe-Tests gates pass.
+No native Frenit first-boot claim is allowed until the kernel/ABI and Wicofe-Test gates pass.
